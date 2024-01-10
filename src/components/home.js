@@ -8,6 +8,7 @@ import { SlArrowDown } from "react-icons/sl";
 
 function Home () {
   return (
+    //Home page
     <div className="flex flex-col justify-center items-center w-full ">
       <div className="text-[#22610B] text-9xl font-UnbuntoMono font-extrabold flex flex-col justify-center items-center gap-5">
         <p>Haley Khuu Inzunza</p>
@@ -51,7 +52,7 @@ function Home () {
         </div>
       </div>
       </div> 
-      <SlArrowDown size={60} className='text-green-900 mt-4 transition animate-bounce'/>
+      <SlArrowDown size={60} className='text-green-900 mt-4 transition animate-bounce' onClick={"#experience" }/>
 
     </div>
   );
